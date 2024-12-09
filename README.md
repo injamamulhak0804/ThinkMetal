@@ -8,4 +8,6 @@
     - Setup the project
     - Create git repositry
     - Make First Commit to Git
+    - install i vite
+    - Make a proper Floder Structure
     
