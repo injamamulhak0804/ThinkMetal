@@ -12,5 +12,5 @@
     - Make a proper Floder Structure
     - complete Header
     - complete Hero Section   
-    - Share Anything Section   -----> 09/12/2024
+    - complete Share Anything Section   -----> 09/12/2024
     
