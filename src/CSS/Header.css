@@ -7,14 +7,17 @@
 }
 .logo{
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 20px;
+  cursor: pointer;
 }
 .nav_links_container{
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  gap: 20px;
-  font-size: 14px;
+  align-items: center;
+  gap: 30px;
+  font-size: 12px;
   font-weight: 500;
 }
 .login_btn{

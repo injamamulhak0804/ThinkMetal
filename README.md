@@ -10,4 +10,6 @@
     - Make First Commit to Git
     - install i vite
     - Make a proper Floder Structure
+    - complete Header
+    - complete Hero Section
     

@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 .whole_container{
     width: 90%;
     margin: 0 auto;
+}
+button,li{
+    cursor: pointer;
 }
 .common_btn{
     color: white;
@@ -10,4 +14,5 @@
     background: #FB432C;
     border: none;
     border-radius: 25px;
+    cursor: pointer;
 }

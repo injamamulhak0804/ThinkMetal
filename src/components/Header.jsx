@@ -1,5 +1,6 @@
 import React from 'react'
 import {LOGO} from "../contants/utils"
+import Button from './Button'
 
 const Header = () => {
   return (
@@ -17,7 +18,7 @@ const Header = () => {
         </div>
         <div className='nav_btn'>
           <button className='login_btn'>Login</button>
-          <button className='common_btn'>Start for free</button>
+          <Button text="Start for free" />
         </div>
     </nav>
   )
