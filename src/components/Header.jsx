@@ -11,7 +11,7 @@ const Header = () => {
             <li>Product </li>
             <li>Home</li>
             <li>Shop</li>
-            <li>Page</li>
+            <li>Pages</li>
             <li>Integrations</li>
             <li>Developers</li>
           </ul>

@@ -16,6 +16,7 @@ main h1{
 .get_in_touch{
     color: #A3A3A3;
     font-size: 12px;
+    margin-top: 10px;
 }
 .get_in_touch > span{
     color: black;
@@ -32,7 +33,7 @@ main h1{
     transform: translate(-50%, -50%);
 }
 .marquree > img{
-    width: 100px;
+    /* width: 100px; */
     object-fit: contain;
     aspect-ratio: 1;
     padding: 0px 10%;
