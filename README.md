@@ -24,7 +24,9 @@
     - Keep Every one on the loop section
     - complete Footer
     - npm i typewriter-effect
-    npm install motion
+    - npm install motion
+    - npm i react-router-dom
+    - complete 404 Page
 # -----------------------------Build Design Complete-----------------------------
 
 # After Build:
@@ -40,6 +42,7 @@
                 - Suitable for React
                 - Easy to use
                 - Already Create multiple projects
+        - Add CreateBrowserRouter to view 404 page
 
 #  Checking the given 5  Requirements:  
     - Responsive UI ✅ 
