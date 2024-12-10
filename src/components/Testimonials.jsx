@@ -4,8 +4,8 @@ import { TESTIMONIAL_IMG1, TESTIMONIAL_IM2, TESTIMONIAL_PROFILE_IM1, TESTIMONIAL
 const Testimonials = () => {
   return (
     <section className='bg-[#F9FAFB]'>
-      <div className='py-20 gap-20 font-inter flex items-start justify-center'>
-        <div className='max-w-[35%]'>
+      <div className='py-20 gap-20 font-inter flex flex-wrap items-start justify-center'>
+        <div className='md:max-w-[35%] px-6 md:px-0'>
           <img className='w-10' src={TESTIMONIAL_IMG1} alt="" />
           <p className='text-[14px] font-normal text-[#171717] text-sm py-5'>
           Cloudhub has emerged as an essential asset for the team at Patreon design. Amidst an accelerated expanding organization in which the product undergoes rapid changes, Campsite enables us to maintain visibility on what's transpiring across various teams — impeccably aligning with our pre-existing procedures.
@@ -19,7 +19,7 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className='max-w-[35%]'>
+        <div className='md:max-w-[35%] px-6 md:px-0'>
           <img className='w-8' src={TESTIMONIAL_IM2} alt="" />
           <p className='text-[14px] font-normal text-[#171717] text-sm py-5'>
           Cloudhub has demonstrated exceptional worth in preserving open communication among designers regarding their current endeavors, a challenge that previously impeded our progress. It continually stands as a distinctive platform guiding our dialogue towards imagination and consistent review, an element I highly value. Moreover, it has accelerated our propensity for early-stage feedback beyond my expectations.

@@ -4,17 +4,17 @@ import Button from './Button'
 
 const Better_FeedBack = () => {
   return (
-<section className='mt-52 font-inter'>
-<div className='flex justify-between gap-10'>
-  <div>
+<section className='font-inter'>
+<div className='flex flex-wrap px-5 md:px-0 justify-between gap-10'>
+  <div className='w-[100%] md:w-[50%]'>
     <div className='bg-[#FAFAFA] rounded-lg'>  
       <img src={FEEDBACK_IMG} alt="" />
     </div>
   </div>
-  <div className='w-[50%] flex flex-col items-start gap-4'>
+  <div className='w-[100%] leading-[3rem] md:leading-0  md:w-[40%]  flex flex-col items-start gap-4'>
     <Button text="Feedback" />
     <h3 className='text-[3rem] font-semibold font-inter'>Better feedback at the right time.</h3>
-    <p className='text-[#5F6980] text-sm'>
+    <p className='text-[#5F6980] md:text-sm text-md leading-8'>
     Campsite has been instrumental in keeping designers aware of
     each others' work-in-progress in a way that was previously
     slowing us down. It's also one of the only channels where.

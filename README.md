@@ -2,6 +2,7 @@
 - 1. Choosing Tech Stack For Frontend:
         - React 
         - Pure CSS
+        - TailwindCSS
         - Animation (Framer motion and CSS)
 
 - 2. Every Things that Done are Showcase here in step by step 👇: 
@@ -15,12 +16,14 @@
     - complete Header
     - complete Hero Section   
     - complete Share Anything Section   -----> 09/12/2024
-    - complete FeedBack_section
+    - complete FeedBack_section 
     - install i react-icons
     - complete Right Time Section
     - complete Progress section
     - complete Designer Section
     - Keep Every one on the loop section
     - complete Footer
-    
-    
+# -----------------------------Build Design Complete-----------------------------
+
+# After Build:
+   - Make it responsive ✅  
