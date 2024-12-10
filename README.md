@@ -1,4 +1,5 @@
 # Every Code is Honestly Commited:
+- live link: https://zamam-assignment1.netlify.app/
 - 1. Choosing Tech Stack For Frontend:
         - React (vite)
         - Pure CSS
