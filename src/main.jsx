@@ -5,5 +5,6 @@ import './CSS/Header.css'
 import  './CSS/Hero.css'
 import './CSS/ShareAnything.css'
 import './CSS/Better_FeedBack.css'
+import './CSS/BestTime.css'
 
 createRoot(document.getElementById('root')).render(<App />)
