@@ -27,3 +27,10 @@
 
 # After Build:
    - Make it responsive ✅  
+
+#  Checking the given 5  Requirements:  
+    - Responsive UI ✅ 
+    - Assets ✅ 
+    - Animations 
+    - Hosting 
+    - Version Control ✅ 
