@@ -7,17 +7,17 @@ import { CiAt } from "react-icons/ci";
 const BestTime = () => {
   return (
     <section>
-        <div className='bestTime_container'>
-            <p>Best time here</p>
-            <h3 className="bestTime_header">Better feedback at the right time.</h3>
-            <div className="feedback_div">
-                <div className="feedback_content_container">
-                    <div className='feedback_content_1'>
-                            <div className='feedback_sub_content1'>
-                                <div><img src={BEST_TIME_IMG} alt="" /></div>
+        <div className='bg-[#FB432C] font-inter text-center text-white px-[8%] py-[5%]'>
+            <p className='text-sm'>Best time here</p>
+            <h3 className="text-4xl font-semibold mb-10">Better feedback at the right time.</h3>
+            <div className="bg-[#111111] px-[40px] pb-[80px] rounded-xl">
+                <div className="bg-[#222222] rounded-b-xl p-8">
+                    <div className='flex justify-between items-center'>
+                            <div className='flex gap-x-2 items-center text-start text-[#737373]'>
+                                <div><img className='w-10' src={BEST_TIME_IMG} alt="" /></div>
                                 <div className='feedback_sub_img_content'>
-                                    <h4>Cloudhub</h4>
-                                    <p>2m ago in Brand</p>
+                                    <h4 className='font-normal text-white pb-1'>Cloudhub</h4>
+                                    <p className='text-sm'>2m ago in Brand</p>
                                 </div>
                             </div>
                             <div>
@@ -25,34 +25,34 @@ const BestTime = () => {
                             </div>
                         
                     </div>
-                    <div className='feedback_content_2'>
-                        <div className='feedback_sub_content2'>
-                            <div><img src={BEST_TIME_PROFILE_IMG} alt="" /></div>
+                    <div className='flex justify-between mt-10 items-baseline'>
+                        <div className='flex gap-3'>
+                            <div><img className='w-16' src={BEST_TIME_PROFILE_IMG} alt="" /></div>
                             <div>
-                                <p>3 people are looking for feedback this week</p>
+                                <p className='font-light max-w-[90%] text-start text-sm'>3 people are looking for feedback this week</p>
                             </div>
                         </div>
                         <div><IoIosArrowForward style={{color:"#777777"}} /></div>
                     </div>
                 </div>
             </div>
-            <div className="feedback_sub_containers">
-                <div>
+            <div className="text-white gap-2 mt-2 flex flex-wrap">
+                <div className='text-start p-8 rounded-lg bg-black max-w-[345px] flex flex-col gap-2'>
                     <CiAt style={{fontWeight:"800"}} />
-                    <h4>Mentions</h4>
-                    <p>Mention anyone on your team
+                    <h4 className='font-medium'>Mentions</h4>
+                    <p className='text-sm max-w-[75%] text-[#737373]'>Mention anyone on your team
                     to include them in a post.</p>
                 </div>
-                <div>
-                    <img src={POLLS_IMG} alt="" />
-                    <h4>Polls</h4>
-                    <p>Get a quick gut check from
+                <div className='text-start p-8 rounded-lg bg-black max-w-[345px] flex flex-col gap-2'>
+                    <img className='w-[8%]' src={POLLS_IMG} alt="" />
+                    <h4 className='font-medium'>Polls</h4>
+                    <p  className='text-sm max-w-[75%] text-[#737373]'>Get a quick gut check from
                     the team on design options.</p>
                 </div>
-                <div>
-                    <img src={TICK_IMG_OUTLINE} alt="" />
-                    <h4>Resolve comments</h4>
-                    <p>Mark comments as resolved to
+                <div className='text-start p-8 rounded-lg bg-black max-w-[345px] flex flex-col gap-2'>
+                    <img className='w-[8%]' src={TICK_IMG_OUTLINE} alt="" />
+                    <h4 className='font-medium'>Resolve comments</h4>
+                    <p  className='text-sm max-w-[75%] text-[#737373]'>Mark comments as resolved to
                     keep the conversation focused.</p>
                 </div>
             </div>

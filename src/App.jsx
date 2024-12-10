@@ -3,17 +3,27 @@ import Hero from "./components/Hero"
 import ShareAnything from "./components/ShareAnything"
 import Better_FeedBack from "./components/Better_FeedBack"
 import BestTime from "./components/BestTime"
+import Progress from "./components/Progress"
+import Testimonials from "./components/Testimonials"
+import DesignAt from "./components/DesignAt"
+import KeepEveryOne from "./components/KeepEveryOne"
 
 function App() {
   return (
     <>
-      <div className="whole_container">
+      <div className="max-w-[1100px] mx-auto">
           <Header />
           <Hero/>
           <ShareAnything/>
           <Better_FeedBack/>
       </div>
-          <BestTime/>
+      <BestTime/>
+      <div className="max-w-[1100px] mx-auto">
+          <Progress/>
+      </div>
+      <Testimonials/>
+      <DesignAt/>
+      <KeepEveryOne/>
     </>
   )
 }

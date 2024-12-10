@@ -4,10 +4,10 @@ import Button from './Button'
 
 const Header = () => {
   return (
-    <nav className='nav_container'>
-        <div className='logo'>
-            <img src={LOGO} alt="" />
-          <ul className='nav_links_container'>
+    <nav className='flex mt-4 justify-between font-inter'>
+        <div className='flex w-24'>
+            <img src={LOGO} className='mr-14' alt="" />
+          <ul className='flex items-center text-sm gap-8'>
             <li>Product </li>
             <li>Home</li>
             <li>Shop</li>
@@ -16,8 +16,8 @@ const Header = () => {
             <li>Developers</li>
           </ul>
         </div>
-        <div className='nav_btn'>
-          <button className='login_btn'>Login</button>
+        <div>
+          <button className='mr-3'>Login</button>
           <Button text="Start for free" />
         </div>
     </nav>

@@ -1,26 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-.whole_container{
-    width: 90%;
-    margin: 0 auto;
-}
-button,li{
-    cursor: pointer;
-}
-.common_btn{
-    color: white;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    padding: 12px 18px;
-    background: #FB432C;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 section{
-    margin-top: 200px;
+    margin-top: 130px;
 }

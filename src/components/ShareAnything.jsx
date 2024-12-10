@@ -6,33 +6,33 @@ import Button from './Button'
 const ShareAnything = () => {
   return (
     <>
-      <section>
-        <div className='share_container'>
-          <div className='share_1'>
+      <section className='mt-52 font-inter'>
+        <div className='flex justify-between gap-10'>
+          <div className='share_1 w-[50%] flex flex-col items-start gap-4'>
             <Button text="Share" />
-            <h3 className='share_header'>Share anything you’re working on.</h3>
-            <p>
+            <h3 className='text-[3rem] font-semibold font-inter'>Share anything you’re working on.</h3>
+            <p className='text-[#5F6980] text-sm'>
               Campsite has been instrumental in keeping designers aware of
               each others' work-in-progress in a way that was previously
               slowing us down. It's also one of the only channels where.
             </p>
-            <div className='share_1_img_container'>
-              <div>
+            <div className='flex gap-5'>
+              <div className='flex gap-2'>
                 <img src={TICK_IMG} alt="" />
-                <p>Coded</p>
+                <p className='font-light text-sm'>Coded</p>
               </div>
-              <div>
+              <div className='flex gap-2'>
                 <img src={TICK_IMG} alt="" />
-                <p>100% Secure</p>
+                <p className='font-light text-sm'>100% Secure</p>
               </div>
             </div>
-            <div className='share_2_img_container' >
+            <div className='flex items-center gap-2 font-medium' >
               <img src={PLAY_BTN} alt="" />
               <p>See how it works</p>
             </div>
           </div>
-          <div className='share_2'>
-            <div className='img_bg'>  
+          <div>
+            <div className='bg-[#FAFAFA] rounded-lg'>  
               <img src={CODE_IMG} alt="" />
             </div>
           </div>
