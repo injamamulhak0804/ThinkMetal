@@ -31,12 +31,17 @@
    - Make it responsive ✅
    - Add own Animation:
         - Add Modern TypeWriter Animation in Hero Section 
+        - Add Animation to Hero, Header and some components only
+        - Add animation in a minimal amount only.
+        - Reason Why I avoid too much animation:
+                - Beacause there are too many images that affects DOM
+                - Adding too much of unnecessary animation make user expreience worse
 
 #  Checking the given 5  Requirements:  
     - Responsive UI ✅ 
     - Assets ✅ 
-    - Animations 
-    - Hosting
+    - Animations ✅
+    - Hosting ✅
     - Version Control: ✅ 
             - Proper Commits ✅ 
             - Public repositry ✅ 

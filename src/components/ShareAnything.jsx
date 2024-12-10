@@ -6,7 +6,7 @@ import Button from './Button'
 const ShareAnything = () => {
   return (
     <>
-      <section className='font-inter'>
+      <section className='font-inter max-w-[1100px] mx-auto'>
         <div className='flex flex-wrap px-5 md:px-0 justify-between gap-10'>
           <div className='w-[100%] leading-[3rem] md:leading-0  md:w-[40%]  flex flex-col items-start gap-4'>
             <Button text="Share" />
@@ -33,7 +33,7 @@ const ShareAnything = () => {
           </div>
           <div className='w-[100%] md:w-[50%]'>
             <div className='bg-[#FAFAFA] rounded-lg'>  
-              <img src={CODE_IMG} alt="" />
+              <img className='image-animation' src={CODE_IMG} alt="" />
             </div>
           </div>
         </div>

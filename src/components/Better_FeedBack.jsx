@@ -4,11 +4,11 @@ import Button from './Button'
 
 const Better_FeedBack = () => {
   return (
-<section className='font-inter'>
+<section className='font-inter max-w-[1100px] mx-auto'>
 <div className='flex flex-wrap px-5 md:px-0 justify-between gap-10'>
   <div className='w-[100%] md:w-[50%]'>
     <div className='bg-[#FAFAFA] rounded-lg'>  
-      <img src={FEEDBACK_IMG} alt="" />
+      <img className='image-animation' src={FEEDBACK_IMG} alt="" />
     </div>
   </div>
   <div className='w-[100%] leading-[3rem] md:leading-0  md:w-[40%]  flex flex-col items-start gap-4'>

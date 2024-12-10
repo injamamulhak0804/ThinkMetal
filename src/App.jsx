@@ -12,16 +12,12 @@ import Footer from "./components/Footer"
 function App() {
   return (
     <>
-      <div className="max-w-[1100px] mx-auto">
-          <Header />
-          <Hero/>
-          <ShareAnything/>
-          <Better_FeedBack/>
-      </div>
+      <Header />
+      <Hero/>
+      <ShareAnything/>
+      <Better_FeedBack/>
       <BestTime/>
-      <div className="max-w-[1100px] mx-auto">
-          <Progress/>
-      </div>
+      <Progress/>
       <Testimonials/>
       <DesignAt/>
       <KeepEveryOne/>

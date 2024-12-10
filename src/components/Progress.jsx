@@ -3,7 +3,7 @@ import { PROGRESS_IMG1 } from '../contants/utils'
 
 const Progress = () => {
   return (
-    <section className='font-inter'>
+    <section className='font-inter max-w-[1100px] mx-auto'>
         <h3 className='text-[3rem] leading-10 md:leading-0 text-center font-semibold font-inter'>Your Archive of progress</h3>
         <div className='my-10 flex flex-wrap justify-center gap-10'>
             <div className='md:max-w-[45%] px-5 md:px-0'>
