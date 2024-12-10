@@ -28,7 +28,7 @@
     - npm install motion
     - npm i react-router-dom
     - complete 404 Page
-# -----------------------------Build Design Complete-----------------------------
+# ----------Build Design Complete------------
 
 # After Build:
    - Make it responsive ✅
