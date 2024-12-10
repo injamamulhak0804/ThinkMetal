@@ -7,6 +7,7 @@ import Progress from "./components/Progress"
 import Testimonials from "./components/Testimonials"
 import DesignAt from "./components/DesignAt"
 import KeepEveryOne from "./components/KeepEveryOne"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Testimonials/>
       <DesignAt/>
       <KeepEveryOne/>
+      <Footer/>
     </>
   )
 }

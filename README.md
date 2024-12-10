@@ -21,5 +21,6 @@
     - complete Progress section
     - complete Designer Section
     - Keep Every one on the loop section
+    - complete Footer
     
     
