@@ -36,6 +36,10 @@
         - Reason Why I avoid too much animation:
                 - Beacause there are too many images that affects DOM
                 - Adding too much of unnecessary animation make user expreience worse
+        - Why I choose Framer Motion for animmation:
+                - Suitable for React
+                - Easy to use
+                - Already Create multiple projects
 
 #  Checking the given 5  Requirements:  
     - Responsive UI ✅ 
