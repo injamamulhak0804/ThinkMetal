@@ -1,6 +1,7 @@
 import React from 'react'
 import { CODE_IMG, COMPANY1, COMPANY2, COMPANY3, COMPANY4, COMPANY5, COMPANY6, COMPANY7, HERO_IMG, PLAY_BTN, TICK_IMG } from '../contants/utils'
 import Button from './Button'
+import { motion } from 'framer-motion'
 
 
 const ShareAnything = () => {
@@ -32,9 +33,13 @@ const ShareAnything = () => {
             </div>
           </div>
           <div className='w-[100%] md:w-[50%]'>
-            <div className='bg-[#FAFAFA] rounded-lg'>  
-              <img className='image-animation' src={CODE_IMG} alt="" />
-            </div>
+            <motion.div 
+              initial={{ opacity: 1, scale: 1, y: 200 }}
+              whileInView={{ opacity: 1, scale: 1, y: 0 }}
+              transition={{ duration: 1 }}
+              className='bg-[#FAFAFA] rounded-lg'>  
+              <img src={CODE_IMG} alt="" />
+            </motion.div>
           </div>
         </div>
       </section>

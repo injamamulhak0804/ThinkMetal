@@ -1,10 +1,14 @@
 import React from 'react'
 import { TESTIMONIAL_IMG1, TESTIMONIAL_IM2, TESTIMONIAL_PROFILE_IM1, TESTIMONIAL_PROFILE_IM2 } from '../contants/utils'
-
+import {motion} from "framer-motion"
 const Testimonials = () => {
   return (
     <section className='bg-[#F9FAFB]'>
-      <div className='py-20 gap-20 font-inter flex flex-wrap items-start justify-center'>
+      <motion.div 
+        initial={{ opacity: 1, scale: 1, x: -200 }}
+        whileInView={{ opacity: 1, scale: 1, x: 0 }}
+        transition={{ duration: 1.2 }}  
+        className='py-20 gap-20 font-inter flex flex-wrap items-start justify-center'>
         <div className='md:max-w-[35%] px-6 md:px-0'>
           <img className='w-10' src={TESTIMONIAL_IMG1} alt="" />
           <p className='text-[14px] font-normal text-[#171717] text-sm py-5'>
@@ -33,7 +37,7 @@ const Testimonials = () => {
           </div>
         </div>
         
-      </div>
+      </motion.div>
 
       
     </section>
