@@ -12,6 +12,7 @@ import Footer from "./components/Footer"
 function App() {
   return (
     <>
+      <div className="w-full overflow-hidden">
       <Header />
       <Hero/>
       <ShareAnything/>
@@ -22,6 +23,7 @@ function App() {
       <DesignAt/>
       <KeepEveryOne/>
       <Footer/>
+      </div>
     </>
   )
 }

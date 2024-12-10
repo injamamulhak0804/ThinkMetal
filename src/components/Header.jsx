@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import {LOGO} from "../contants/utils"
 import Button from './Button'
 import { IoIosArrowDown } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,14 +19,14 @@ const Header = () => {
           <div className='flex w-24'>
             <img src={LOGO} className='mr-14 z-20 animate-fadeIn' style={{ animationDelay: '0.1s' }} alt="" />  
             <ul className={`absolute md:relative z-10 bg-white p-10 md:p-0 w-full text-center ${isMenuOpen ? 'block' : 'hidden' } md:flex md:items-center md: gap-8 md:text-sm font-inter`}>
-              <li className='flex items-center my-5 md:my-0 justify-center text-center animate-fadeIn' style={{ animationDelay: '0.1s' }}>
+              <Link to="/error" className='flex items-center my-5 gap-2 md:my-0 justify-center text-center animate-fadeIn' style={{ animationDelay: '0.1s' }}>
                 <span>Product</span> <span><IoIosArrowDown/></span>
-              </li>
-              <li className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.3s' }}>Home</li>
-              <li className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.4s' }}>Shop</li>
-              <li className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.5s' }}>Pages</li>
-              <li className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.6s' }}>Integrations</li>
-              <li className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.7s' }}>Developers</li>
+              </Link>
+              <Link to="/error" className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.3s' }}>Home</Link>
+              <Link to="/error" className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.4s' }}>Shop</Link>
+              <Link to="/error" className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.5s' }}>Pages</Link>
+              <Link to="/error" className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.6s' }}>Integrations</Link>
+              <Link to="/error" className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.7s' }}>Developers</Link>
             </ul>
           </div>
           <div className='md:hidden z-10'>
@@ -37,8 +38,11 @@ const Header = () => {
           </div>
 
           <div className='hidden md:flex items-center'>
-            <button className='mr-3 animate-fadeIn' style={{ animationDelay: '0.7s' }}>Login</button>
-            <Button text="Start for free" />
+            <Link to="/error">
+            <button className='mr-3 animate-fadeIn' style={{ animationDelay: '0.7s' }}>Login</button></Link>
+            <Link to="/error"><Button text="Start for free" /></Link>
+            
+            
           </div>
       </nav>
     </>

@@ -24,7 +24,7 @@ const Hero = () => {
               font-medium text-sm rounded-3xl bg-[#FB432C] text-white animate-fadeOut'>Start for free</button>
             <p 
             style={{ animationDelay: '1.1s' }}
-            className='text-[#A3A3A3] animate-fadeOut hidden md:block  text-xs mt-3'>Want to talk or get a live demo? <span className='text-black font-medium'>Get in touch →</span></p>
+            className='text-[#A3A3A3] animate-fadeOut hidden md:block  text-xs mt-3'>Want to talk or get a live demo? <span className='text-black font-medium'> Get in touch →</span></p>
             <img 
             style={{ animationDelay: '1s' }}
             className='w-full absolute -z-10 animate-fadeOut top-[150%] md:top-[100%] left-1/2 transform -translate-x-1/2 -translate-y-1/2' src={HERO_IMG} alt="" />
