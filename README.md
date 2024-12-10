@@ -36,10 +36,10 @@
         - Add Modern TypeWriter Animation in Hero Section 
         - Add Animation to Hero, Header and some components only
         - Add animation in a minimal amount only.
-        - Reason Why I avoid too much animation:
+   - Reason Why I avoid too much animation:
           - Beacause there are too many images that affects DOM
           - Adding too much of unnecessary animation make user expreience worse
-        - Why I choose Framer Motion for animmation:
+   - Why I choose Framer Motion for animmation:
           - Suitable for React
           - Easy to use
           - Already Create multiple projects
