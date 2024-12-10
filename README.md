@@ -1,6 +1,6 @@
 # Every Code is Honestly Commited:
 - 1. Choosing Tech Stack For Frontend:
-        - React 
+        - React (vite)
         - Pure CSS
         - TailwindCSS
         - Animation (Framer motion and CSS)
@@ -23,14 +23,20 @@
     - complete Designer Section
     - Keep Every one on the loop section
     - complete Footer
+    - npm i typewriter-effect
+    npm install motion
 # -----------------------------Build Design Complete-----------------------------
 
 # After Build:
-   - Make it responsive ✅  
+   - Make it responsive ✅
+   - Add own Animation:
+        - Add Modern TypeWriter Animation in Hero Section 
 
 #  Checking the given 5  Requirements:  
     - Responsive UI ✅ 
     - Assets ✅ 
     - Animations 
-    - Hosting 
-    - Version Control ✅ 
+    - Hosting
+    - Version Control: ✅ 
+            - Proper Commits ✅ 
+            - Public repositry ✅ 

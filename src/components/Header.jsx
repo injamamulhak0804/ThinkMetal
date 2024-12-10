@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import {LOGO} from "../contants/utils"
 import Button from './Button'
+import { IoIosArrowDown } from "react-icons/io";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +15,7 @@ const Header = () => {
         <div className='flex w-24'>
             <img src={LOGO} className='mr-14 z-20' alt="" />  
           <ul className={`absolute md:relative z-10 bg-white p-10 md:p-0 w-full text-center ${isMenuOpen ? 'block' : 'hidden' } md:flex md:items-center md: gap-8 md:text-sm`}>
-            <li>Product </li>
+            <li className='flex gap-1 items-center'>Product <IoIosArrowDown/> </li>
             <li>Home</li>
             <li>Shop</li>
             <li>Pages</li>
