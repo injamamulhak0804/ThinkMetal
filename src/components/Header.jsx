@@ -22,11 +22,11 @@ const Header = () => {
               <Link to="/error" className='flex items-center my-5 gap-2 md:my-0 justify-center text-center animate-fadeIn' style={{ animationDelay: '0.1s' }}>
                 <span>Product</span> <span><IoIosArrowDown/></span>
               </Link>
-              <Link to="/error" className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.3s' }}>Home</Link>
-              <Link to="/error" className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.4s' }}>Shop</Link>
-              <Link to="/error" className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.5s' }}>Pages</Link>
-              <Link to="/error" className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.6s' }}>Integrations</Link>
-              <Link to="/error" className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.7s' }}>Developers</Link>
+              <li className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.3s' }}><Link to="/error">Home</Link></li>
+              <li className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.4s' }}><Link to="/error">Shop</Link></li>
+              <li className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.5s' }}><Link to="/error">Pages</Link></li>
+              <li className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.6s' }}><Link to="/error">Integrations</Link></li>             
+              <li className='mb-5 md:mb-0 animate-fadeIn' style={{ animationDelay: '0.7s' }}><Link to="/error">Developers</Link></li>
             </ul>
           </div>
           <div className='md:hidden z-10'>
@@ -40,9 +40,7 @@ const Header = () => {
           <div className='hidden md:flex items-center'>
             <Link to="/error">
             <button className='mr-3 animate-fadeIn' style={{ animationDelay: '0.7s' }}>Login</button></Link>
-            <Link to="/error"><Button text="Start for free" /></Link>
-            
-            
+            <Link to="/error"><Button text="Start for free" /></Link>            
           </div>
       </nav>
     </>
